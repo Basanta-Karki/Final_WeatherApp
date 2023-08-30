@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Users/Lenov/OneDrive/Desktop/Practice/Localstorage"
+		},
+		{
+			"path": "../copy"
+		},
+		{
+			"path": "../Searchweather"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Localstorage"
+	}
+}

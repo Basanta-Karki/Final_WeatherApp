@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast by Basanta</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body >   
+
+    <div id="container">
+
+        <h1 id="heading">Weather Forecast</h1>
+
+        <form id="formDiv">
+        
+            <input id="search" type="text" placeholder="Enter the City Name..." >
+            <button id="btn" onclick="displayweatherinfo()">Search</button>
+        </form>
+
+        <div id="date-day">
+            <p id="date">6 July 2023</p>
+  
+        </div>
+
+        <div id="top">
+
+            <img src="" id="currentinfo" alt="CurrentWeatherInfo">
+
+            <h3 id="checkdescription">Snow</h3>
+
+            <h2 id="City">redcar </h2>
+        </div>
+
+        <div id="weatherinfo">
+
+
+            <div id="temperatureinfo">
+
+                <img src="hot.png"  alt="temperatureimg">
+
+                <div id="temp">
+
+                    <h3>Temperature</h3>
+                    <p id="temperature">19 <sup>°C</sup></p>
+                </div>
+            </div>
+
+            <div id="humidityinfo">
+
+                <img src="humidity.png" alt="">
+
+                <div id="humidtyin">
+                    <h3>Humidity</h3>
+                    <p id="humidity">77%</p>
+                </div>
+
+            </div>
+            
+            
+            <div id="pressureinfo">
+
+                <img src="resilience.png" alt="Pressureimg">
+
+                <div id="press">
+                    <h3>Pressure</h3>
+                    <p id="pressure"> 1012 hPa</p>
+                </div>
+
+            </div>
+
+            <div id="windinfo">
+
+                <img src="wind.png" alt="Windimg">
+
+                <div id="wind">
+                    <h3>Wind-speed</h3>
+                    <p id="wind-speed">24 km/H</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="data">
+                    
+            <a href="7Days.php"><button id="button">View More ➲</button></a>
+            
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
